@@ -75,7 +75,7 @@ SectionCreate(fileNAME,SecDataVal,NACA,afile,SecAirFoil, SecNumSVor, SecSpaceSVo
 
 ConName = "Flaps";
 Gain = 1;
-xhinge = 0.25;
+xhinge = 0.75;
 xyzhvec = [0,0,0];
 ConSgDup = 1;
 ControlDataVal = [Gain, xhinge,xyzhvec];
@@ -96,7 +96,7 @@ SectionCreate(fileNAME,SecDataVal,NACA,afile,SecAirFoil, SecNumSVor, SecSpaceSVo
 
 ConName = "Flaps";
 Gain = 1;
-xhinge = 0.25;
+xhinge = 0.75;
 xyzhvec = [0,0,0];
 ConSgDup = 1;
 ControlDataVal = [Gain, xhinge,xyzhvec];
