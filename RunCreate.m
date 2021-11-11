@@ -30,7 +30,7 @@ function RunCreate(RunFile,CaseNum,CaseName,runCons,runConsVals,vel,extraVars)
     TranData = "dx dy dz";
     runVars = ["alpha","beta","pb/2V","qc/2V","rb/2V",extraVars];
     Test = [runVars;runCons; runConsVals];
-    VELConst = ["velocity", vel];
+    VELConst = ["velocity", vel; "grav.acc.",32.17]';
     class(CaseNum)
     %SurfaceData
     
